@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/devModeLabel"
+	android:text="@string/devModeText"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:textStyle="bold"
+	android:layout_gravity="center|bottom"
+	android:textColor="#00F"
+	android:visibility="gone"/>

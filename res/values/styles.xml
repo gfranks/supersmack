@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <bool name="isTablet">false</bool>
+    
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:windowBackground">@color/beige</item>
+        <item name="android:ratingBarStyle">@style/Rating</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:background">@drawable/btn</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <style name="Rating">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/rating_full</item>
+        <item name="android:indeterminateDrawable">@drawable/rating_full</item>
+        <item name="android:minHeight">57dip</item>
+        <item name="android:maxHeight">57dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:numStars">5</item>
+    </style>
+    
+    <style name="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#686565</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    
+    <style name="Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="text_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+     
+    <style name="text_option">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+     
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+     
+    <style name="layout_fill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+     
+    <style name="layout_f_w">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+     
+    <style name="h_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+    </style>
+     
+        <style name="indicator_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dip</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="ButtonBarButton" />
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+</resources>

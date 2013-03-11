@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperSmack</string>
+    <string name="fragment_game_start">Game Start</string>
+    <string name="fragment_options">Game Options</string>
+    
+    <string name="devModeText">DEVELOPMENT MODE</string>
+    
+    <!-- dialog_progress.xml -->
+    <string name="loading">Loading…</string>
+    <!-- end dialog_progress.xml -->
+
+</resources>
